@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/step-security/actions-aws-ssm-params-to-env#readme",
   "dependencies": {
-    "@actions/core": "^2.0.3",
+    "@actions/core": "^3.0.1",
     "@aws-sdk/client-ssm": "^3.577.0",
     "axios": "^1.20.0"
   },
