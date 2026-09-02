@@ -1,0 +1,29 @@
+{
+  "name": "aws-ssm-params-to-env",
+  "version": "1.4.0",
+  "description": "A github action to Convert SSM parameters to environment variables with support for JSON parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/actions-aws-ssm-params-to-env.git"
+  },
+  "keywords": [],
+  "author": "step-security",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/step-security/actions-aws-ssm-params-to-env/issues"
+  },
+  "homepage": "https://github.com/step-security/actions-aws-ssm-params-to-env#readme",
+  "dependencies": {
+    "@actions/core": "^2.0.3",
+    "@aws-sdk/client-ssm": "^3.577.0",
+    "axios": "^1.20.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.45.0"
+  }
+}
